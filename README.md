@@ -1,9 +1,11 @@
 # AlgorithmExpriment
 ## 算法设计与分析实验作业
+
+### 实验选题：问题求解类
+本次实验选择附件一中的0/1背包问题，数据集选择Florida State University(FSU): 6 个数据集（原始数据位于data文件下）<br>
+并利用动态规划、回溯、分枝限界三种方法进行求解，分析三种方法的时间和空间的复杂度，归纳各个算法的优缺点<br>
 #### 代码实现部分
 操作系统：Linux-Ubuntu22.04<br>
 编译器版本：gcc 13.1.0<br>
 编译选项：-g -O2 -std=c++2a<br>
-实验数据来源：https://people.sc.fsu.edu/~jburkardt/datasets/knapsack_01/knapsack_01.html<br>
-
-
+数据集来源：https://people.sc.fsu.edu/~jburkardt/datasets/knapsack_01/knapsack_01.html<br>
