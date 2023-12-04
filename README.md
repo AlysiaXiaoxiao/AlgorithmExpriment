@@ -9,3 +9,4 @@
 编译器版本：gcc 13.1.0<br>
 编译选项：-g -O2 -std=c++2a<br>
 数据集来源：https://people.sc.fsu.edu/~jburkardt/datasets/knapsack_01/knapsack_01.html<br>
+本次实验数据位于/data文件下，并将输出结果重定向至/expriments文件下，.txt文件对应的编号及为测试数据的.txt文件的编号。
