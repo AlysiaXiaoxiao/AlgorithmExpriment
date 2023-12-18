@@ -14,12 +14,14 @@ int main() {
     int n, m;
     cin >> n >> m;
 
-    vector<Node> g(n);
+    vector<Node> g(n), tmp(n);
     for(int i = 0; i < n; i ++) {
         cin >> g[i].w;
+        tmp[i].w = g[i].w;
     }
     for(int i = 0; i < n; i ++) {
         cin >> g[i].v;
+        tmp[i].v = g[i].v;
         g[i].id = i;
     }
 
